@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rock.css">
+    <script src="rock.js" defer></script>
+</head>
+<body>
+    <!-- <img src="./rockpaperscissorsimage/bgimg.jpeg" class="bgimage"> -->
+    <div class="headText">ROCK-PAPER-SCISSORS</div>
+    <div class="mergecontent">
+    <div class="stats">
+        <div class="statsText" >Your Stats ↻</div>
+        <div class="enclose">
+        <div class="won statbox">Won 🏆
+            <div class="wonno statno">0</div>
+        </div>
+        <div class="draws statbox">Draw ✋
+            <div class="drawno statno">0</div>
+        </div>
+        <div class="lost statbox">Lost 😞
+            <div class="lostno statno">0</div>
+        </div>
+    </div>
+    </div>
+    <div class="contentBody">
+        <div class="scoreboard">
+        <div class="score">Score</div>
+        <div class="indvscore">
+        <div class="PlayerScore">
+            <div class="label">You : </div>
+            <div class="updatescoreplr">0</div>
+        </div>
+        <div class="ComputerScore">
+            <div class="label">Computer : </div>
+            <div class="updatescorecomp">0</div>
+        </div>
+    </div>
+    </div>
+    
+        <div id="images">
+            <img src="./rockpaperscissorsimage/paperimg.png" class="box resultp"  alt="playerresult">
+            
+            <img src="./rockpaperscissorsimage/paperimg.png"class="box resultc" alt="compresult">
+        </div>
+        <div id="options">
+            <img src="./rockpaperscissorsimage/rockimg.png" class="box Rockimg"  alt="Rock">
+            <img src="./rockpaperscissorsimage/paperimg.png" class="box Paperimg" alt="Paper">
+            <img src="./rockpaperscissorsimage/scissorsimg.png" class="box Scissorsimg"  alt="Scissors">
+        </div>
+    </div>
+</div>
+    <div class="overlay">
+    <div class="announceResult">
+        <div class="textResult"></div>
+        <div class="textDescribe"></div>
+        <button class="Restart">OK</button>
+    </div>
+   
+</div>
+</body>
+</html>
